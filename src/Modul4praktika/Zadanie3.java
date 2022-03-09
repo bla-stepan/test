@@ -30,8 +30,10 @@ public class Zadanie3 {
     }
 
     public static void main(String[] args) {
-        Payer payer = new Payer("Ivan", "Ivanov", "yaroslavl", "0125925:63");
+        Payer payer = new Payer("Ivan", "Ivanov", "yaroslavl", "0125925:63");//
 
+        System.out.println(payer.toString());
+        System.out.println(payer.toString());
         System.out.println(payer.toString());
     }
         /*
